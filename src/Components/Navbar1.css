@@ -1,0 +1,202 @@
+.nav-top-1{
+    background-color: rgb(79, 15, 109);
+    text-align: center;
+    width: 100%;
+    min-height: 60px;
+    display: flex;
+    justify-content: center;
+    color:#ffff;
+    align-items: center;
+}
+.nav-top-1:hover{
+    text-decoration: underline;
+}
+.nav-top-1-text{
+    display: flex;
+    align-items: center;
+    font-family: "helvetica neue",helvetica,arial,sans-serif;
+    font-size: 14px;
+}
+.sephora-logo{
+    width: 150px;
+    height: 70px;
+    /* border: 1px solid; */
+}
+.nav-top-2{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+}
+.nav-searchbar{
+    height: 35px;
+    border: none;
+    margin-left: 20px;
+    background-color:#edebeb4e;
+    width: 100%;
+    border-radius: 25px;
+}
+.inputsec{
+    width: 30%;
+    background-color:#edebeb4e;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+}
+.searchicon{
+    width: 40px;
+}
+.storeicon{
+    width: 32px;
+    height:32px;
+}
+.storebox{
+    display: flex;
+    align-items: center;
+    height: 45px;
+}
+.storetext{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 5px;
+    height: 45px;
+}
+.storetext>p:first-child{
+    line-height: 2px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.storetext>p:last-child{
+    line-height: 2px;
+    font-size: 14px;
+}
+.nav-midright{
+    display: flex;
+    justify-content: space-evenly;  
+    width: 50%;
+}
+.iconscwc{
+    width:30px;
+    height:30px
+}
+.lastbox{
+    width:200px;
+    /* border:1px solid; */
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.communitytext{
+    font-weight: 600;
+    padding-left: 5px;
+}
+
+
+/* Media Query */
+@media screen and (max-width:480px)
+{
+    .nav-top-1-text{
+        font-size: 12px;
+    }
+    .storebox{
+        display: none;
+    }
+    .sephora-logo{
+        width:100px;
+        height: 60px;
+    }
+    .nav-searchbar{
+        width:200px;
+        border-radius: 10px;
+    }
+    .inputsec{
+        border-radius: 10px;
+        width: 200px;
+    }
+    .lastbox{
+        width: 150px;
+    }
+    .nav-top-2{
+        margin: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width:768px)
+{
+    .nav-top-1-text{
+        font-size: 14px;
+    }
+    .storebox{
+        display: none;
+    }
+    .sephora-logo{
+        width:140px;
+        height: 60px;
+    }
+    .nav-searchbar{
+        width:250px;
+        border-radius: 10px;
+    }
+    .inputsec{
+        border-radius: 10px;
+        width: 300px;
+    }
+    .lastbox{
+        width: 100%;
+    }
+    .nav-top-2{
+        margin: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+@media screen and (max-width:1385px)
+{
+    .nav-top-1-text{
+        font-size: 14px;
+    }
+    .storebox{
+        display: none;
+        width: 140px;
+    }
+    .sephora-logo{
+        width:180px;
+        height: 60px;
+    }
+    .nav-searchbar{
+        width:180px;
+        border-radius: 10px;
+    }
+    .inputsec{
+        border-radius: 10px;
+        width: 200px;
+    }
+    .lastbox{
+        width: 70%;
+    }
+    .nav-top-2{
+        margin: auto;
+        width: 100%;
+        display: flex;
+        justify-content:space-between;
+    }
+    .storeicon{
+        width:30px;
+        height:30px;
+    }
+    .storetext>p:first-child{
+        line-height: 1px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .storetext>p:last-child{
+        line-height: 1px;
+        font-size: 12px;
+    }
+}

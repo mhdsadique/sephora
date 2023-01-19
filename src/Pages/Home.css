@@ -1,0 +1,298 @@
+.HomeTopBanner{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px;
+    margin-top: 10px;
+}
+.top-banner-div{
+  width:100%;
+  height: auto;  
+}
+.top-banner-div>img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.top-banner-text-div{
+    padding: 15px;
+    background-color: #b152c0dc;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.top-banner-text-div:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.top-banner-text-p{
+    color:white;
+    font-size: small;
+    font-weight: bold;
+}
+.top-banner-text-head{
+    color: white;   
+    font-weight: 700;
+    font-size: large;
+}
+.shop-now-text{
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.top-banner-text-div1{
+    padding: 15px;
+    background-color: #058f847a;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.top-banner-text-div1:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+.top-banner-text-p1{
+    color:black;
+    font-size: small;
+    font-weight: bold;
+}
+.top-banner-text-head1{
+    color: black;   
+    font-weight: 700;
+    font-size: large;
+}
+.shop-now-text1{
+    color: black;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.chosen-container{
+    width:85%;
+    margin:auto;
+    margin-top: 50px;
+}
+.chosen-container1{
+    width:85%;
+    margin:auto;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    /* border-bottom:1px solid rgb(196, 196, 196); */
+}
+.hr{
+    margin-top: 50px;
+}
+.chosen-container>h2{
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+.chosen-container1>h2{
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+.carousel{
+    height:auto;
+    width:auto;
+    /* border:1px solid; */
+    text-align: left;
+    padding:10px;
+    font-size: small;
+    background-color:white;
+}
+.carousel:hover{
+    
+    cursor: pointer;
+}
+.cImage{
+    width:100%;
+    height:200px
+}
+.indi-card{
+    padding: 0px 3px 5px 5px;
+    height: 285px;
+    transition: opacity 1s ease 0s;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+.indi-card:hover{
+
+    transform: translate(0px, -15px);
+    box-shadow: 9px 8px 5px -4px rgba(54,50,49,0.65);
+    -webkit-box-shadow: 9px 8px 5px -4px rgba(54,50,49,0.65);
+    -moz-box-shadow: 9px 8px 5px -4px rgba(54,50,49,0.65);
+}
+.indi-card-eye{
+    padding: 5px;
+    height: 350px;
+    transition: opacity 1s ease 0s;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+.indi-card-eye:hover{
+    transform: translate(0px, -15px);
+    box-shadow: 9px 8px 5px -4px rgba(54,50,49,0.65);
+    -webkit-box-shadow: 9px 8px 5px -4px rgba(54,50,49,0.65);
+    -moz-box-shadow: 9px 8px 5px -4px rgba(54,50,49,0.65);
+}
+.slide-container{
+    margin: auto;
+    width:95%;
+    margin-top: 10px;
+}
+.perfect{
+    display: flex;
+    justify-content: space-evenly;
+    width: 85%;
+    margin: auto;
+    margin-top: 15px;
+}
+.mid-banner-text-div{
+    background-color: rgba(72, 191, 214, 0.667);
+    padding: 15px;
+    color: black;
+}
+.mid-banner-text-div:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+.mid-banner-text-p{
+    color: rgba(0, 0, 0, 0.714);
+    font-size: small;
+    text-align: justify;
+    font-weight: 600;
+}
+.mid-banner-text-head{
+    color: rgba(0, 0, 0, 0.714);   
+    font-weight: 700;
+    font-size: large;
+}
+.shopmid-now-text{
+    color: rgba(0, 0, 0, 0.714);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+.mid-banner-text-div2{
+    background-color:rgb(68, 149, 83);
+    padding: 15px;
+    color: white;
+}
+.mid-banner-text-div2:hover{
+    text-decoration: underline;
+    text-decoration-color:white;
+}
+.mid-banner-text-p2{
+    color:white;
+    font-size: small;
+    text-align: justify;
+    font-weight: 600;
+}
+.mid-banner-text-head2{
+    color:white;   
+    font-weight: 700;
+    font-size: large;
+}
+.shopmid-now-text2{
+    color:white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.mid-banner-text-div3{
+    background-color:#0192CB;
+    padding: 15px;
+    color: white;
+}
+.mid-banner-text-div3:hover{
+    text-decoration: underline;
+    text-decoration-color:white;
+}
+
+.last-banner-img{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.hr1{
+    margin: auto;
+    width:80%;
+    margin-top: 50px;
+
+}
+.featured-div-1{
+    width: 30%;
+}
+.featured-div-2{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+}
+.featured-div-card{
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+.featured-div-card:hover{
+    cursor: pointer;
+    transform: translate(0px, -6px);
+}
+.featured-div-card>div>img{
+    width:50%;
+    height: 40px;
+}
+.featured-div-card>div{
+    display: flex;
+    justify-content: flex-end;
+}
+.anchor{
+    text-decoration: underline;
+    color: #0192CB;
+    font-size: 14px;
+}
+.end-banner-text-div2{
+    padding: 4px;
+    height: 100px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: rgba(8, 85, 8, 0.814);
+    color: white;
+}
+.end-banner-text-div3{
+    padding: 4px;
+    height: 100px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: rgb(198, 168, 134);
+}
+.common-end{
+    border:1px solid rgb(201, 190, 181);
+    border-radius: 5px;
+    height: auto;
+}
+.end-banner-text-div{
+    padding: 5px;
+    height: 100px;
+}
+.commitment{
+    display: flex;
+    justify-content: space-evenly;
+    width: 84%;
+    margin: auto;
+    margin-top: 50px;
+}
+.feedback-banner{
+    text-align: center;
+    height: 40px;
+    background-color: rgba(187, 187, 187, 0.645);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    margin-top: 40px;
+}
+.feedback-banner:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Filter_Parents{
+  justify-content: center;
+  width: 100%;
+  display: block;
+  }
+  .Filter_Brand_links{
+    display: block;
+    line-height: 2;
+  
+  }
+  .Filter_Price_links{
+  
+    display: block;
+    text-align: left;
+    line-height: 2;
+  }
+  .Filter_Type_links{
+  
+    display: block;
+    text-align: left;
+    line-height: 2;
+  }
+  #Footer_button1,#Footer_button{
+    margin-top: 10px;
+    background-color: rgb(249, 248, 248);
+    border-radius: 3px;
+    height: 34px;
+    margin-right: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  
+  }
+  #Footer_text{
+font-size: 16px;
+margin-top: 20px;
+
+  }
+  #Footer_text>span{
+
+font-weight: 600;
+  }
+  
+  
